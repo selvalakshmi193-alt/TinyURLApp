@@ -48,6 +48,7 @@ app.MapDelete("/delete/{code}", async (UrlDbContext db, string code) =>
     await db.SaveChangesAsync();
     return Results.Ok();
 });
+app.MapGet("/", () => "TinyURL API is running on Azure 🚀");
 
 
 app.Run();
