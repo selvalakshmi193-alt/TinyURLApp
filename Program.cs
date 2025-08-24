@@ -16,7 +16,7 @@ app.MapGet("/", () => "TinyURL API is running on Azure 🚀");
 // ✅ Shorten a URL
 app.MapPost("/shorten", async (UrlDbContext db, Url url) =>
 {
-    // Generate short code
+    // Generate a random short code
     url.ShortUrl = Guid.NewGuid().ToString().Substring(0, 6);
 
     db.Urls.Add(url);
