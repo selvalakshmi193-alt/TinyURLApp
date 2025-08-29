@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/TinyURLApp/TinyUrlApi/TinyUrlApi.csproj": {}
+    "/workspaces/TinyURLApp/TinyUrlApi.csproj": {}
   },
   "projects": {
-    "/workspaces/TinyURLApp/TinyUrlApi/TinyUrlApi.csproj": {
+    "/workspaces/TinyURLApp/TinyUrlApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/TinyURLApp/TinyUrlApi/TinyUrlApi.csproj",
+        "projectUniqueName": "/workspaces/TinyURLApp/TinyUrlApi.csproj",
         "projectName": "TinyUrlApi",
-        "projectPath": "/workspaces/TinyURLApp/TinyUrlApi/TinyUrlApi.csproj",
+        "projectPath": "/workspaces/TinyURLApp/TinyUrlApi.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/TinyURLApp/TinyUrlApi/obj/",
+        "outputPath": "/workspaces/TinyURLApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
@@ -43,27 +43,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.18, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.8, )"
+              "version": "[8.0.6, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[9.0.8, )"
+              "version": "[8.0.6, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[6.6.0, )"
             }
           },
           "imports": [
